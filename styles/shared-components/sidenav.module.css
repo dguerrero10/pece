@@ -1,5 +1,5 @@
 .sidenav {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     min-width: 250px;
     display: flex;
@@ -9,12 +9,6 @@
 
 .sidenav__header {
     color: #fff;
-}
-
-.sidenav__divider {
-    width: 40px;
-    border: 1px solid #fff;
-    height: 2px;
 }
 
 .sidenav__list {
@@ -30,9 +24,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 4px 20px;
+    padding: 4px 16px;
     border-radius: 16px;
     margin: .75rem 0;
+    font-size: 14px;
     cursor: pointer;
     color: #fff;
     transition: background-color .4s ease;

@@ -37,9 +37,9 @@ export default function AddTeamMemberForm({ setOpenModal, openModal }) {
                     <form className={classes['add-tm-form']}>
                         <Stack spacing={3} direction='column' alignItems='center'>
                             <Avatar sx={{ width: 60, height: 60 }} style={{cursor: 'pointer'}} />
-                            <TextField variant='filled' label='Name' />
-                            <TextField variant='filled' label='Role / position' />
-                            <TextField variant='filled' label='Linkedin URL' />
+                            <TextField variant='outlined' label='Name' />
+                            <TextField variant='outlined' label='Position title' />
+                            <TextField variant='outlined' label='Linkedin URL' />
                         </Stack>
                         <div className="flx-space-between u-md-padding-vertical">
                             <SecondaryButton type="button" onClick={handleClose}>Cancel</SecondaryButton>

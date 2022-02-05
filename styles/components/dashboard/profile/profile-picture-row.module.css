@@ -1,0 +1,26 @@
+.profile-picture-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.profile-picture-row__wrapper {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-picture-row__text {
+    padding: 1rem;
+}
+
+.profile-picture-row__actions {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
