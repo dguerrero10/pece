@@ -1,0 +1,5 @@
+.msg-grid {
+    display: grid;
+    grid-template-columns: .50fr 2fr;
+    margin-left: -2.5rem;
+}

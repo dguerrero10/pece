@@ -1,0 +1,8 @@
+.tm-list-item__name {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.tm-list-item__role {
+    color: #1876D3;
+}

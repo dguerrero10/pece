@@ -1,0 +1,17 @@
+.add-tm-form__wrapper {
+    padding: .5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-tm-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-tm-form__title {
+    text-align: center;
+    padding-top: .5rem;
+}
