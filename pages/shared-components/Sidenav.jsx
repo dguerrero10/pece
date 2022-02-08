@@ -1,4 +1,4 @@
-import { AttachMoney, Business, Edit, Group, Message, Person, Style, Visibility } from '@material-ui/icons';
+import { AttachMoney, Business, Edit, Group, Message, Person, Search, Style, Visibility } from '@material-ui/icons';
 import { Divider } from '@mui/material';
 import Link from 'next/link';
 
@@ -25,7 +25,7 @@ export default function Sidenav() {
             </Link> */}
             <Link href="investors">
                 <div className={classes['sidenav__list--item']}>
-                    <AttachMoney /> <p className={classes['sidenav__list--text']}>Investors</p>
+                    <Search /> <p className={classes['sidenav__list--text']}>Search investors</p>
                 </div>
             </Link>
             <Divider variant="left" style={{ background: 'rgb(221, 219, 219)' }}/>

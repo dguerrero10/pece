@@ -3,8 +3,7 @@ import { Tabs, Tab, Typography, Box } from '@mui/material';
 import { useState } from 'react';
 
 import CompanyOverview from './CompanyOverview';
-import CompanyCulture from './CompanyCulture';
-import TeamMemberList from "../../team-members/components/TeamMemberList";
+import Asks from './Asks';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -50,18 +49,15 @@ export default function CompanyTabs(props) {
         <Box sx={{ width: '100%' }}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="company information">
-                    <Tab label="Overview" {...a11yProps(0)} />
+                    <Tab label="Company Overview" {...a11yProps(0)} />
                     <Tab label="Asks" {...a11yProps(1)} />
-                    <Tab label="Culture" {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
                 <CompanyOverview />
             </TabPanel>
             <TabPanel value={value} index={1}>
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-                <CompanyCulture />
+                <Asks />
             </TabPanel>
         </Box>
     );

@@ -8,7 +8,7 @@ export default function CompanyOverview() {
   return <div className={classes['company-overview']}>
     <CompanyDescription />
     <CompanySummary />
-    <h3>Cubespace Team</h3>
+    <h3 className={classes['company-overview__header']}>Cubespace Team</h3>
     <TeamMemberList />
   </div>
 }

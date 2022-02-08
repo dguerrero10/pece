@@ -12,14 +12,18 @@ export default function CompanySummary() {
           objectFit="cover"
         />
       </div>
-      <p className={classes['company-summary__text']}>
+
+      <div className={classes['company-summary__text']}>
+        <h3>Summary</h3>
+        <p className='para'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Ex corporis obcaecati, quae fugit quibusdam amet officiis excepturi
         voluptate cumque mollitia dolorum. Blanditiis dolore vel accusantium,
         saepe necessitatibus incidunt unde dolor?
         voluptate cumque mollitia dolorum. Blanditiis dolore vel accusantium,
         saepe necessitatibus incidunt unde dolor?
-      </p>
+        </p>
+      </div>
     </div>
     <div className={classes['company-summary__col-2']}>
       <CompanyDetails />
