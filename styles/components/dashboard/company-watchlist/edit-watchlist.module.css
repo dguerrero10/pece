@@ -1,0 +1,9 @@
+.edit-watchlist {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    margin-bottom: 1rem;
+}

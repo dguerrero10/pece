@@ -1,4 +1,4 @@
-import { Business, Edit, Group, Message, Person, Style } from '@material-ui/icons';
+import { AttachMoney, Business, Edit, Group, Message, Person, Style, Visibility } from '@material-ui/icons';
 import { Divider } from '@mui/material';
 import Link from 'next/link';
 
@@ -18,23 +18,22 @@ export default function Sidenav() {
                     <Group /> <p className={classes['sidenav__list--text']}>Team members</p>
                 </div>
             </Link>
-            <Link href="pitch-deck">
+             {/* <Link href="company-watchlist">
                 <div className={classes['sidenav__list--item']}>
-                    <Style /> <p className={classes['sidenav__list--text']}>Pitch deck</p>
+                    <Visibility /> <p className={classes['sidenav__list--text']}>Company watchlist</p>
+                </div>
+            </Link> */}
+            <Link href="investors">
+                <div className={classes['sidenav__list--item']}>
+                    <AttachMoney /> <p className={classes['sidenav__list--text']}>Investors</p>
                 </div>
             </Link>
             <Divider variant="left" style={{ background: 'rgb(221, 219, 219)' }}/>
-            <Link href="interests">
-                <div className={classes['sidenav__list--item']}>
-                    <Edit /> <p className={classes['sidenav__list--text']}>Interests</p>
-                </div>
-            </Link>
             <Link href="messages">
                 <div className={classes['sidenav__list--item']}>
                     <Message /> <p className={classes['sidenav__list--text']}>Messages</p>
                 </div>
             </Link>
-            <Divider variant="left" style={{ background: 'rgb(221, 219, 219)' }}/>
             <Link href="profile">
                 <div className={classes['sidenav__list--item']}>
                     <Person /> <p className={classes['sidenav__list--text']}>Profile</p>

@@ -16,7 +16,8 @@ a {
 }
 
 .dashboard {
-  background-color: #F2F5F8;
+  background-color: #fff;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   display: grid;
@@ -30,7 +31,7 @@ a {
 }
 
 .para {
-  margin: .5rem;
+  margin: .5rem 0;
   color: rgb(63, 61, 61);
 }
 
@@ -43,4 +44,8 @@ a {
 
 .u-md-padding-vertical {
   padding: 2rem 0;
+}
+
+.link {
+  color: #007FFF;
 }

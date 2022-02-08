@@ -1,10 +1,10 @@
-.tm-list-item__name {
+.watchlist__name {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 0;
 }
 
-.tm-list-item__role {
+.watchlist__role {
     text-align: center;
     line-height: 1.4;
     color: #1876D3;

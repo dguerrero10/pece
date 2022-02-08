@@ -2,7 +2,7 @@ import { Divider, Stack, TextField } from '@mui/material';
 import classes from '../../../styles/pages/profile.module.css';
 
 import Sidenav from "../../shared-components/Sidenav";
-import ProfilePictureRow from '../../dashboard/profile/components/ProfilePictureRow';
+import ProfilePictureRow from './components/ProfilePictureRow';
 import SecondaryButton from '../../UI/SecondaryButton';
 
 export default function Messages() {
@@ -33,7 +33,12 @@ export default function Messages() {
             <Divider variant="left" style={{ background: 'rgb(221, 219, 219)' }} />
             <div className="flx-space-between">
               <p className='para'>LinkedIn URL</p>
-              <TextField />
+              <a className="link"
+                 href="https://www.linkedin.com/in/david-guerrero-322046111/"
+                 target="_blank">
+                https://www.linkedin.com/in/david-guerrero-322046111/
+              </a>
+              {/* <TextField /> */}
             </div>
             <Divider variant="left" style={{ background: 'rgb(221, 219, 219)' }} />
             <div className="flx-space-between">
